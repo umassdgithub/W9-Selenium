@@ -1,0 +1,17 @@
+{
+  "name": "seleniummocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha ./test/*.spec.js",
+    "report": "npx mocha ./test/*.spec.js --reporter mochawesome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.29.0"
+  }
+}
